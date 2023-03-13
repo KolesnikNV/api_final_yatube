@@ -1,12 +1,13 @@
 from api.permissions import AuthorOrReadOnly
-from django.contrib.auth import get_user_model
-from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
 from posts.models import Follow, Group, Post
 from rest_framework import filters, status, viewsets
 from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
+
+from django.contrib.auth import get_user_model
+from django.shortcuts import get_object_or_404
 
 from .serializers import (
     CommentSerializer,
@@ -46,7 +47,7 @@ class CommentViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         post = get_object_or_404(Post, id=self.kwargs.get("post_id"))
-        return post.comments.all()
+        return post.comments.select_related("author")
 
     def perform_create(self, serializer):
         post = get_object_or_404(Post, id=self.kwargs.get("post_id"))
