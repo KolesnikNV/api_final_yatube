@@ -1,9 +1,10 @@
 from http import HTTPStatus
 
 import pytest
-from posts.models import Post
 
 from django.db.utils import IntegrityError
+
+from posts.models import Post
 
 
 @pytest.mark.django_db(transaction=True)
