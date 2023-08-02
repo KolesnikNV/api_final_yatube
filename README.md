@@ -1,8 +1,10 @@
 ![Python](https://img.shields.io/badge/Python-blue?style=flat-square)
 ![Django](https://img.shields.io/badge/Django-green?style=flat-square)
-![Django REST Framework](https://img.shields.io/badge/Django_REST_Framework-lightgrey?style=flat-square)
+![Django REST Framework](https://img.shields.io/badge/Django_REST_Framework-red?style=flat-square)
 ![SQLite3](https://img.shields.io/badge/SQLite3-blue?style=flat-square)
 ![Simple-JWT](https://img.shields.io/badge/Simple--JWT-yellow?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-lightgrey?style=flat-square)
+
 
 # api_final_yatube - REST API для проекта Yatube
 # Установка:
