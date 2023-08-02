@@ -1,7 +1,9 @@
 ![Python](https://img.shields.io/badge/Python-blue?style=flat-square)
 ![Django](https://img.shields.io/badge/Django-green?style=flat-square)
 ![Django REST Framework](https://img.shields.io/badge/Django_REST_Framework-red?style=flat-square)
-![SQLite3](https://img.shields.io/badge/SQLite3-blue?style=flat-square)
+[![HTML](https://img.shields.io/badge/HTML-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-blueviolet)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![SQLite3](https://img.shields.io/badge/SQLite3-lightgrey)](https://www.sqlite.org/)
 ![Simple-JWT](https://img.shields.io/badge/Simple--JWT-yellow?style=flat-square)
 ![pytest](https://img.shields.io/badge/pytest-lightgrey?style=flat-square)
 
