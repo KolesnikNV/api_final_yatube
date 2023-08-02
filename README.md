@@ -1,7 +1,10 @@
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square)
+![Django](https://img.shields.io/badge/Django-green?style=flat-square)
+![Django REST Framework](https://img.shields.io/badge/Django_REST_Framework-lightgrey?style=flat-square)
+![SQLite3](https://img.shields.io/badge/SQLite3-blue?style=flat-square)
+![Simple-JWT](https://img.shields.io/badge/Simple--JWT-yellow?style=flat-square)
+
 # api_final_yatube - REST API для проекта Yatube
-
-Стек: Python 3.9, Django 3.2.16, Django REST Framework, SQLite3, Simple-JWT
-
 # Установка:
 Для начала необходимо клонировать репозиторий командой `git clone <ссылка на репозиторий>`
 После прописать в консоли команду `cd api_final_yatube`
